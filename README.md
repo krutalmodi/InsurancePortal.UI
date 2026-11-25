@@ -23,7 +23,7 @@ The application can be extended to support insurance operations such as policy m
 - **Framework:** ASP.NET Core
 - **Platform:** .NET 10
 - **Language:** C#
-- **Frontend:** ClientApp
+- **Frontend:** ClientApp, Angular
 - **Project Configuration:** Nullable reference types and implicit global usings enabled
 
 ## Project Structure
