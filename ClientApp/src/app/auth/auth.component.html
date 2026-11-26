@@ -1,0 +1,92 @@
+<header class="public-header">
+  <a class="brand" routerLink="/">◈ <span>Insurance Portal</span></a
+  ><a routerLink="/">← Back to home</a>
+</header>
+<main class="auth-layout">
+  <section class="auth-intro">
+    <span class="eyebrow">WELCOME TO INSURANCE PORTAL</span>
+    <h1>Your insurance, all in one place.</h1>
+    <p>Request quotes and return to them whenever you need.</p>
+    <div class="auth-illustration" aria-hidden="true">◈</div>
+  </section>
+  <section class="auth-panel">
+    <div class="auth-form">
+      <h1>{{ registering ? 'Create your account' : 'Welcome back' }}</h1>
+      <p class="muted">
+        {{ registering ? 'Sign up to get started.' : 'Sign in to your account.' }}
+      </p>
+      @if (notice) {
+        <div class="notice" role="status">{{ notice }}</div>
+      }
+      @if (error) {
+        <div class="error" role="alert">{{ error }}</div>
+      }
+      <form #form="ngForm" (ngSubmit)="submit(form.valid ?? false)">
+        <label for="email">Email</label
+        ><input
+          id="email"
+          name="email"
+          type="email"
+          [(ngModel)]="email"
+          required
+          email
+          autocomplete="email"
+        /><label for="password">Password</label
+        ><input
+          id="password"
+          name="password"
+          type="password"
+          [(ngModel)]="password"
+          required
+          [attr.autocomplete]="registering ? 'new-password' : 'current-password'"
+        />
+        @if (registering) {
+          <label for="firstName">First name (optional)</label>
+          <input
+            id="firstName"
+            name="firstName"
+            [(ngModel)]="firstName"
+            maxlength="100"
+            autocomplete="given-name"
+          />
+          <label for="lastName">Last name (optional)</label>
+          <input
+            id="lastName"
+            name="lastName"
+            [(ngModel)]="lastName"
+            maxlength="100"
+            autocomplete="family-name"
+          />
+          <label for="username">Username (optional)</label>
+          <input
+            id="username"
+            name="username"
+            [(ngModel)]="username"
+            maxlength="100"
+            autocomplete="username"
+          />
+          <label for="confirm">Confirm password</label
+          ><input
+            id="confirm"
+            name="confirm"
+            type="password"
+            [(ngModel)]="confirm"
+            required
+            autocomplete="new-password"
+          />
+        }
+        <button class="button full" [disabled]="busy">
+          {{ busy ? 'Please wait…' : registering ? 'Create account' : 'Sign in' }}
+        </button>
+      </form>
+      <p class="auth-switch">
+        {{ registering ? 'Already have an account?' : 'New here?' }}
+        <a
+          [routerLink]="registering ? '/sign-in' : '/sign-up'"
+          [queryParams]="{ returnUrl: returnUrl }"
+          >{{ registering ? 'Sign in' : 'Create an account' }}</a
+        >
+      </p>
+    </div>
+  </section>
+</main>

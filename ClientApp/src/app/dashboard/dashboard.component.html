@@ -1,0 +1,68 @@
+<div class="page-heading">
+  <div>
+    <span class="eyebrow">{{ staff ? 'STAFF WORKSPACE' : 'YOUR PORTAL' }}</span>
+    <h1>{{ staff ? (admin ? 'Admin dashboard' : 'Agent dashboard') : 'Welcome back' }}</h1>
+    <p class="muted">
+      {{
+        staff
+          ? admin
+            ? 'Portal overview and administration.'
+            : 'Your assigned customer activity.'
+          : 'Manage your quotes and insurance in one place.'
+      }}
+    </p>
+  </div>
+  @if (!staff) {
+    <a class="button" routerLink="/portal/quotes/new">+ Create a quote</a>
+  }
+</div>
+<div class="cards three">
+  @if (staff) {
+    <a class="card dashboard-card" routerLink="customers"
+      ><span class="product-icon">▦</span>
+      <h3>{{ admin ? 'Customers' : 'My customers' }}</h3>
+      <p>Customer information will be available when the service is ready.</p>
+      <span class="link">View customers →</span></a
+    ><a class="card dashboard-card" routerLink="quotes"
+      ><span class="product-icon">▤</span>
+      <h3>{{ admin ? 'Quotes' : 'Customer quotes' }}</h3>
+      <p>Staff quote management is coming soon.</p>
+      <span class="link">View quotes →</span></a
+    ><a class="card dashboard-card" [routerLink]="admin ? 'users' : 'policies'"
+      ><span class="product-icon">○</span>
+      <h3>{{ admin ? 'Users & roles' : 'Policies' }}</h3>
+      <p>Available when the service is ready.</p>
+      <span class="link">Learn more →</span></a
+    >
+  } @else {
+    <a class="card dashboard-card" routerLink="quotes"
+      ><span class="product-icon">▤</span>
+      <h3>My quotes</h3>
+      <p>View and manage your quotes.</p>
+      <span class="link">View quotes →</span></a
+    ><a class="card dashboard-card" routerLink="policies"
+      ><span class="product-icon">⌂</span>
+      <h3>My policies</h3>
+      <p>Policy details are coming soon.</p>
+      <span class="link">Learn more →</span></a
+    ><a class="card dashboard-card" routerLink="claims"
+      ><span class="product-icon">◇</span>
+      <h3>Claims</h3>
+      <p>Claims management is coming soon.</p>
+      <span class="link">Learn more →</span></a
+    >
+  }
+</div>
+<section class="card panel">
+  <h2>{{ staff ? 'Recent activity' : 'Recent quotes' }}</h2>
+  <p class="muted">
+    {{
+      staff
+        ? 'Staff activity will appear here when the service is available.'
+        : 'View your saved quotes in My quotes.'
+    }}
+  </p>
+  @if (!staff) {
+    <a routerLink="quotes">View all quotes →</a>
+  }
+</section>

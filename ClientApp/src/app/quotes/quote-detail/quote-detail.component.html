@@ -1,0 +1,101 @@
+<div class="page-heading">
+  <div>
+    <span class="eyebrow">MY QUOTES / DETAILS</span>
+    <h1>Quote details</h1>
+    <p class="muted">Review your quote information.</p>
+  </div>
+  <a class="button secondary" routerLink="/portal/quotes">← My quotes</a>
+</div>
+@if (loading) {
+  <p role="status">Loading quote…</p>
+} @else if (error) {
+  <div class="error" role="alert">
+    {{ error }} <button class="text-button" (click)="loadQuote()">Retry</button>
+  </div>
+} @else if (quote) {
+  <section class="card panel">
+    <div class="detail-heading">
+      <div>
+        <span class="eyebrow">{{ productName(quote) }} INSURANCE</span>
+        <h2>{{ quote.referenceNumber }}</h2>
+        <p class="muted">
+          Status: <strong>{{ statusName }}</strong>
+          @if (statusHint) {
+            <span> — {{ statusHint }}</span>
+          }
+        </p>
+      </div>
+      <div>
+        <span class="muted">Quoted premium</span>
+        <div class="premium">
+          {{ premium | number: '1.2-2' }}
+          @if (currencyCode) {
+            <small>{{ currencyCode }}</small>
+          }
+        </div>
+      </div>
+    </div>
+    @if (lookupWarning) {
+      <div class="notice" role="status">
+        Some descriptions could not be loaded, so raw values are shown for those fields.
+      </div>
+    }
+    <h3>Quote summary</h3>
+    <dl class="review-list">
+      <dt>Product</dt>
+      <dd>{{ productName(quote) }}</dd>
+      <dt>Created</dt>
+      <dd>{{ quote.createdAt | date: 'mediumDate' }}</dd>
+      <dt>Valid until</dt>
+      <dd>{{ quote.validUntil | date: 'mediumDate' }}</dd>
+    </dl>
+    @for (section of sections; track section.title) {
+      <h3>{{ section.title }}</h3>
+      <dl class="review-list">
+        @for (row of section.rows; track row.label) {
+          <dt>{{ row.label }}</dt>
+          <dd>
+            {{ row.value }}
+            @if (row.hint) {
+              <small class="muted"> — {{ row.hint }}</small>
+            }
+          </dd>
+        }
+      </dl>
+    }
+    @if (ratingRows.length) {
+      <h3>Pricing</h3>
+      <dl class="review-list">
+        @for (row of ratingRows; track row.label) {
+          <dt>{{ row.label }}</dt>
+          <dd>{{ row.value }}</dd>
+        }
+      </dl>
+    }
+    <div class="notice">Accepting a quote does not create a policy or activate coverage.</div>
+    @if (accepted) {
+      <div class="notice" role="status">Your quote was accepted. No policy has been issued.</div>
+    } @else if (canAccept) {
+      @if (confirming) {
+        <p>Accept this quote? This does not issue a policy.</p>
+        <div class="actions">
+          <button class="button" (click)="accept()" [disabled]="busy">
+            {{ busy ? 'Submitting…' : 'Confirm acceptance' }}</button><button
+            class="button secondary"
+            (click)="confirming = false"
+          >
+            Go back
+          </button>
+        </div>
+      } @else {
+        <button class="button" (click)="confirming = true">Accept quote</button>
+      }
+    } @else if (!features.quotesEnabled()) {
+      <p class="muted">Quote acceptance is coming soon.</p>
+    }
+    <p class="muted">Rejecting a quote will be available when that workflow is ready.</p>
+    @if (actionError) {
+      <div class="error" role="alert">{{ actionError }}</div>
+    }
+  </section>
+}

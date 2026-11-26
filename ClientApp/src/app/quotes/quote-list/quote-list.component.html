@@ -1,0 +1,79 @@
+<div class="page-heading">
+  <div>
+    <span class="eyebrow">YOUR COVERAGE</span>
+    <h1>My quotes</h1>
+    <p class="muted">Return to your previously created quotes.</p>
+  </div>
+  @if (features.quoteCreationEnabled()) {
+    <a class="button" routerLink="/portal/quotes/new">+ Create a quote</a>
+  }
+</div>
+@if (features.error()) {
+  <div class="error" role="alert">
+    {{ features.error() }} <button class="text-button" (click)="load()">Retry</button>
+  </div>
+}
+@if (loading) {
+  <p role="status">Loading quotes…</p>
+} @else if (error) {
+  <div class="error" role="alert">
+    {{ error }} <button class="text-button" (click)="loadQuotes()">Retry</button>
+  </div>
+} @else if (!quotes.length) {
+  <section class="card empty">
+    <div class="empty-icon">▤</div>
+    <h2>No quotes yet</h2>
+    <p>Your quotes will appear here.</p>
+    @if (features.quoteCreationEnabled()) {
+      <a class="button" routerLink="/portal/quotes/new">Create a quote</a>
+    }
+  </section>
+} @else {
+  <div class="card table-wrap">
+    @if (statuses.length) {
+      <div class="field">
+        <label for="statusFilter">Status</label>
+        <select id="statusFilter" (change)="onStatusFilter($event)">
+          <option value="">All statuses</option>
+          @for (s of statuses; track s.id) {
+            <option [value]="s.code">{{ s.name }}</option>
+          }
+        </select>
+      </div>
+    }
+    <table>
+      <thead>
+        <tr>
+          <th>Reference</th>
+          <th>Product</th>
+          <th>Status</th>
+          <th>Created</th>
+          <th>Valid until</th>
+          <th>Premium</th>
+        </tr>
+      </thead>
+      <tbody>
+        @for (quote of visibleQuotes; track quote.id) {
+          <tr>
+            <td>
+              <a [routerLink]="['/portal/quotes', quote.id]">{{ quote.referenceNumber }}</a>
+            </td>
+            <td>{{ productName(quote) }}</td>
+            <td>{{ statusLabel(quote.status) }}</td>
+            <td>{{ quote.createdAt | date: 'mediumDate' }}</td>
+            <td>{{ quote.validUntil | date: 'mediumDate' }}</td>
+            <td>{{ quote.totalPremium | number: '1.2-2' }}</td>
+          </tr>
+        } @empty {
+          <tr>
+            <td colspan="6">No quotes match the selected status.</td>
+          </tr>
+        }
+      </tbody>
+    </table>
+    <p class="table-note">
+      Showing {{ visibleQuotes.length }} of {{ quotes.length }} quotes. Currency is shown in quote
+      details when available.
+    </p>
+  </div>
+}

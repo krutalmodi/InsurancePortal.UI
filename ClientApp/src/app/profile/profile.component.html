@@ -1,0 +1,55 @@
+<div class="page-heading">
+  <div>
+    <span class="eyebrow">ACCOUNT</span>
+    <h1>My profile</h1>
+    <p class="muted">Your account information.</p>
+  </div>
+</div>
+<section class="card panel">
+  <dl>
+    <dt>Email</dt>
+    <dd>{{ session.user()?.email }}</dd>
+    <dt>Roles</dt>
+    <dd>{{ session.user()?.roles?.join(', ') || 'None assigned' }}</dd>
+  </dl>
+  <p class="muted">
+    Email and roles cannot be changed here. Names cannot be cleared once provided.
+  </p>
+  @if (notice) {
+    <div class="notice" role="status">{{ notice }}</div>
+  }
+  @if (error) {
+    <div class="error" role="alert">{{ error }}</div>
+  }
+  <form #form="ngForm" (ngSubmit)="save(form.valid ?? false)">
+    <div class="form-grid">
+      <div>
+        <label for="profileFirstName">First name</label>
+        <input
+          id="profileFirstName"
+          name="firstName"
+          [(ngModel)]="firstName"
+          maxlength="100"
+          autocomplete="given-name"
+          [disabled]="busy"
+        />
+      </div>
+      <div>
+        <label for="profileLastName">Last name</label>
+        <input
+          id="profileLastName"
+          name="lastName"
+          [(ngModel)]="lastName"
+          maxlength="100"
+          autocomplete="family-name"
+          [disabled]="busy"
+        />
+      </div>
+    </div>
+    <div class="actions">
+      <button class="button" type="submit" [disabled]="busy">
+        {{ busy ? 'Saving…' : 'Save changes' }}
+      </button>
+    </div>
+  </form>
+</section>

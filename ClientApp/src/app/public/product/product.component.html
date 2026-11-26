@@ -1,0 +1,25 @@
+<header class="public-header">
+  <a class="brand" routerLink="/">◈ <span>Insurance Portal</span></a>
+  <nav>
+    <a routerLink="/sign-in">Sign in</a
+    ><a class="button small" routerLink="/sign-up">Create account</a>
+  </nav>
+</header>
+<main class="section">
+  @if (name) {
+    <span class="eyebrow">EXPLORE YOUR OPTIONS</span>
+    <h1>{{ name }} insurance</h1>
+    <p class="muted">Start a quote to explore {{ name.toLowerCase() }} insurance options.</p>
+    <p>
+      Coverage, eligibility, pricing and terms depend on the product and your circumstances. Review
+      the details supplied with your quote before making a decision.
+    </p>
+    <div class="actions">
+      <a class="button" routerLink="/portal/quotes/new">Get a quote</a
+      ><a class="button secondary" routerLink="/">Back to products</a>
+    </div>
+  } @else {
+    <h1>Product not found</h1>
+    <a routerLink="/">Back to products</a>
+  }
+</main>

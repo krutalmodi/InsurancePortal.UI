@@ -1,0 +1,1109 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Learning\\OnPrem Apps\\InsurancePortal\\ui\\InsurancePortal.UI\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{B32098C6-C046-8A81-247D-67285523BF2F}|InsurancePortal.UI.csproj|d:\\learning\\onprem apps\\insuranceportal\\ui\\insuranceportal.ui\\insuranceportalui.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}",
+      "RelativeMoniker": "D:0:0:{B32098C6-C046-8A81-247D-67285523BF2F}|InsurancePortal.UI.csproj|solutionrelative:insuranceportalui.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B32098C6-C046-8A81-247D-67285523BF2F}|InsurancePortal.UI.csproj|d:\\learning\\onprem apps\\insuranceportal\\ui\\insuranceportal.ui\\clientapp\\src\\app\\quotes\\quote-wizard\\quote-wizard.component.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{B32098C6-C046-8A81-247D-67285523BF2F}|InsurancePortal.UI.csproj|solutionrelative:clientapp\\src\\app\\quotes\\quote-wizard\\quote-wizard.component.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B32098C6-C046-8A81-247D-67285523BF2F}|InsurancePortal.UI.csproj|d:\\learning\\onprem apps\\insuranceportal\\ui\\insuranceportal.ui\\clientapp\\src\\app\\core\\location.service.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{B32098C6-C046-8A81-247D-67285523BF2F}|InsurancePortal.UI.csproj|solutionrelative:clientapp\\src\\app\\core\\location.service.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Learning\\OnPrem Apps\\InsurancePortal\\docs\\InsurancePortal.UI.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B32098C6-C046-8A81-247D-67285523BF2F}|InsurancePortal.UI.csproj|d:\\learning\\onprem apps\\insuranceportal\\ui\\insuranceportal.ui\\clientapp\\src\\app\\portal.spec.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{B32098C6-C046-8A81-247D-67285523BF2F}|InsurancePortal.UI.csproj|solutionrelative:clientapp\\src\\app\\portal.spec.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Learning\\OnPrem Apps\\InsurancePortal\\src\\InsurancePortal.IdentityService\\InsurancePortal.IdentityService.Api\\Security\\HttpCurrentUserContext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B32098C6-C046-8A81-247D-67285523BF2F}|InsurancePortal.UI.csproj|d:\\learning\\onprem apps\\insuranceportal\\ui\\insuranceportal.ui\\clientapp\\src\\app\\auth\\auth.component.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B32098C6-C046-8A81-247D-67285523BF2F}|InsurancePortal.UI.csproj|solutionrelative:clientapp\\src\\app\\auth\\auth.component.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B32098C6-C046-8A81-247D-67285523BF2F}|InsurancePortal.UI.csproj|d:\\learning\\onprem apps\\insuranceportal\\ui\\insuranceportal.ui\\clientapp\\src\\app\\auth\\auth.component.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{B32098C6-C046-8A81-247D-67285523BF2F}|InsurancePortal.UI.csproj|solutionrelative:clientapp\\src\\app\\auth\\auth.component.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B32098C6-C046-8A81-247D-67285523BF2F}|InsurancePortal.UI.csproj|d:\\learning\\onprem apps\\insuranceportal\\ui\\insuranceportal.ui\\clientapp\\src\\app\\core\\session.service.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{B32098C6-C046-8A81-247D-67285523BF2F}|InsurancePortal.UI.csproj|solutionrelative:clientapp\\src\\app\\core\\session.service.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B32098C6-C046-8A81-247D-67285523BF2F}|InsurancePortal.UI.csproj|d:\\learning\\onprem apps\\insuranceportal\\ui\\insuranceportal.ui\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{B32098C6-C046-8A81-247D-67285523BF2F}|InsurancePortal.UI.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B32098C6-C046-8A81-247D-67285523BF2F}|InsurancePortal.UI.csproj|d:\\learning\\onprem apps\\insuranceportal\\ui\\insuranceportal.ui\\clientapp\\src\\app\\core\\auth.guards.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{B32098C6-C046-8A81-247D-67285523BF2F}|InsurancePortal.UI.csproj|solutionrelative:clientapp\\src\\app\\core\\auth.guards.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B32098C6-C046-8A81-247D-67285523BF2F}|InsurancePortal.UI.csproj|d:\\learning\\onprem apps\\insuranceportal\\ui\\insuranceportal.ui\\clientapp\\src\\app\\core\\feature.service.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{B32098C6-C046-8A81-247D-67285523BF2F}|InsurancePortal.UI.csproj|solutionrelative:clientapp\\src\\app\\core\\feature.service.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B32098C6-C046-8A81-247D-67285523BF2F}|InsurancePortal.UI.csproj|d:\\learning\\onprem apps\\insuranceportal\\ui\\insuranceportal.ui\\clientapp\\readme.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}",
+      "RelativeMoniker": "D:0:0:{B32098C6-C046-8A81-247D-67285523BF2F}|InsurancePortal.UI.csproj|solutionrelative:clientapp\\readme.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B32098C6-C046-8A81-247D-67285523BF2F}|InsurancePortal.UI.csproj|d:\\learning\\onprem apps\\insuranceportal\\ui\\insuranceportal.ui\\readme.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}",
+      "RelativeMoniker": "D:0:0:{B32098C6-C046-8A81-247D-67285523BF2F}|InsurancePortal.UI.csproj|solutionrelative:readme.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B32098C6-C046-8A81-247D-67285523BF2F}|InsurancePortal.UI.csproj|d:\\learning\\onprem apps\\insuranceportal\\ui\\insuranceportal.ui\\clientapp\\src\\app\\app.routes.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{B32098C6-C046-8A81-247D-67285523BF2F}|InsurancePortal.UI.csproj|solutionrelative:clientapp\\src\\app\\app.routes.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B32098C6-C046-8A81-247D-67285523BF2F}|InsurancePortal.UI.csproj|d:\\learning\\onprem apps\\insuranceportal\\ui\\insuranceportal.ui\\clientapp\\src\\app\\app.config.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{B32098C6-C046-8A81-247D-67285523BF2F}|InsurancePortal.UI.csproj|solutionrelative:clientapp\\src\\app\\app.config.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B32098C6-C046-8A81-247D-67285523BF2F}|InsurancePortal.UI.csproj|d:\\learning\\onprem apps\\insuranceportal\\ui\\insuranceportal.ui\\clientapp\\src\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B32098C6-C046-8A81-247D-67285523BF2F}|InsurancePortal.UI.csproj|solutionrelative:clientapp\\src\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B32098C6-C046-8A81-247D-67285523BF2F}|InsurancePortal.UI.csproj|d:\\learning\\onprem apps\\insuranceportal\\ui\\insuranceportal.ui\\clientapp\\src\\app\\core\\auth.interceptor.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{B32098C6-C046-8A81-247D-67285523BF2F}|InsurancePortal.UI.csproj|solutionrelative:clientapp\\src\\app\\core\\auth.interceptor.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B32098C6-C046-8A81-247D-67285523BF2F}|InsurancePortal.UI.csproj|d:\\learning\\onprem apps\\insuranceportal\\ui\\insuranceportal.ui\\clientapp\\src\\app\\core\\error-message.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{B32098C6-C046-8A81-247D-67285523BF2F}|InsurancePortal.UI.csproj|solutionrelative:clientapp\\src\\app\\core\\error-message.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B32098C6-C046-8A81-247D-67285523BF2F}|InsurancePortal.UI.csproj|d:\\learning\\onprem apps\\insuranceportal\\ui\\insuranceportal.ui\\clientapp\\src\\app\\app.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B32098C6-C046-8A81-247D-67285523BF2F}|InsurancePortal.UI.csproj|solutionrelative:clientapp\\src\\app\\app.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B32098C6-C046-8A81-247D-67285523BF2F}|InsurancePortal.UI.csproj|d:\\learning\\onprem apps\\insuranceportal\\ui\\insuranceportal.ui\\clientapp\\src\\app\\public\\product\\product.component.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B32098C6-C046-8A81-247D-67285523BF2F}|InsurancePortal.UI.csproj|solutionrelative:clientapp\\src\\app\\public\\product\\product.component.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B32098C6-C046-8A81-247D-67285523BF2F}|InsurancePortal.UI.csproj|d:\\learning\\onprem apps\\insuranceportal\\ui\\insuranceportal.ui\\clientapp\\src\\app\\public\\public.component.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B32098C6-C046-8A81-247D-67285523BF2F}|InsurancePortal.UI.csproj|solutionrelative:clientapp\\src\\app\\public\\public.component.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B32098C6-C046-8A81-247D-67285523BF2F}|InsurancePortal.UI.csproj|d:\\learning\\onprem apps\\insuranceportal\\ui\\insuranceportal.ui\\clientapp\\src\\app\\public\\public.component.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{B32098C6-C046-8A81-247D-67285523BF2F}|InsurancePortal.UI.csproj|solutionrelative:clientapp\\src\\app\\public\\public.component.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B32098C6-C046-8A81-247D-67285523BF2F}|InsurancePortal.UI.csproj|d:\\learning\\onprem apps\\insuranceportal\\ui\\insuranceportal.ui\\clientapp\\src\\app\\public\\product\\product.component.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{B32098C6-C046-8A81-247D-67285523BF2F}|InsurancePortal.UI.csproj|solutionrelative:clientapp\\src\\app\\public\\product\\product.component.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B32098C6-C046-8A81-247D-67285523BF2F}|InsurancePortal.UI.csproj|d:\\learning\\onprem apps\\insuranceportal\\ui\\insuranceportal.ui\\clientapp\\src\\app\\auth\\access-denied\\access-denied.component.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B32098C6-C046-8A81-247D-67285523BF2F}|InsurancePortal.UI.csproj|solutionrelative:clientapp\\src\\app\\auth\\access-denied\\access-denied.component.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B32098C6-C046-8A81-247D-67285523BF2F}|InsurancePortal.UI.csproj|d:\\learning\\onprem apps\\insuranceportal\\ui\\insuranceportal.ui\\clientapp\\src\\app\\auth\\access-denied\\access-denied.component.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{B32098C6-C046-8A81-247D-67285523BF2F}|InsurancePortal.UI.csproj|solutionrelative:clientapp\\src\\app\\auth\\access-denied\\access-denied.component.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B32098C6-C046-8A81-247D-67285523BF2F}|InsurancePortal.UI.csproj|d:\\learning\\onprem apps\\insuranceportal\\ui\\insuranceportal.ui\\clientapp\\src\\app\\shell\\shell.component.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B32098C6-C046-8A81-247D-67285523BF2F}|InsurancePortal.UI.csproj|solutionrelative:clientapp\\src\\app\\shell\\shell.component.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B32098C6-C046-8A81-247D-67285523BF2F}|InsurancePortal.UI.csproj|d:\\learning\\onprem apps\\insuranceportal\\ui\\insuranceportal.ui\\clientapp\\src\\app\\shell\\shell.component.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{B32098C6-C046-8A81-247D-67285523BF2F}|InsurancePortal.UI.csproj|solutionrelative:clientapp\\src\\app\\shell\\shell.component.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B32098C6-C046-8A81-247D-67285523BF2F}|InsurancePortal.UI.csproj|d:\\learning\\onprem apps\\insuranceportal\\ui\\insuranceportal.ui\\clientapp\\src\\app\\dashboard\\dashboard.component.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B32098C6-C046-8A81-247D-67285523BF2F}|InsurancePortal.UI.csproj|solutionrelative:clientapp\\src\\app\\dashboard\\dashboard.component.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B32098C6-C046-8A81-247D-67285523BF2F}|InsurancePortal.UI.csproj|d:\\learning\\onprem apps\\insuranceportal\\ui\\insuranceportal.ui\\clientapp\\src\\app\\shared\\coming-soon\\coming-soon.component.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{B32098C6-C046-8A81-247D-67285523BF2F}|InsurancePortal.UI.csproj|solutionrelative:clientapp\\src\\app\\shared\\coming-soon\\coming-soon.component.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B32098C6-C046-8A81-247D-67285523BF2F}|InsurancePortal.UI.csproj|d:\\learning\\onprem apps\\insuranceportal\\ui\\insuranceportal.ui\\clientapp\\src\\app\\dashboard\\dashboard.component.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{B32098C6-C046-8A81-247D-67285523BF2F}|InsurancePortal.UI.csproj|solutionrelative:clientapp\\src\\app\\dashboard\\dashboard.component.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B32098C6-C046-8A81-247D-67285523BF2F}|InsurancePortal.UI.csproj|d:\\learning\\onprem apps\\insuranceportal\\ui\\insuranceportal.ui\\clientapp\\src\\app\\shared\\coming-soon\\coming-soon.component.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B32098C6-C046-8A81-247D-67285523BF2F}|InsurancePortal.UI.csproj|solutionrelative:clientapp\\src\\app\\shared\\coming-soon\\coming-soon.component.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B32098C6-C046-8A81-247D-67285523BF2F}|InsurancePortal.UI.csproj|d:\\learning\\onprem apps\\insuranceportal\\ui\\insuranceportal.ui\\clientapp\\src\\app\\staff\\staff.component.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B32098C6-C046-8A81-247D-67285523BF2F}|InsurancePortal.UI.csproj|solutionrelative:clientapp\\src\\app\\staff\\staff.component.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B32098C6-C046-8A81-247D-67285523BF2F}|InsurancePortal.UI.csproj|d:\\learning\\onprem apps\\insuranceportal\\ui\\insuranceportal.ui\\clientapp\\src\\app\\profile\\profile.component.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B32098C6-C046-8A81-247D-67285523BF2F}|InsurancePortal.UI.csproj|solutionrelative:clientapp\\src\\app\\profile\\profile.component.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B32098C6-C046-8A81-247D-67285523BF2F}|InsurancePortal.UI.csproj|d:\\learning\\onprem apps\\insuranceportal\\ui\\insuranceportal.ui\\clientapp\\src\\app\\staff\\staff.component.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{B32098C6-C046-8A81-247D-67285523BF2F}|InsurancePortal.UI.csproj|solutionrelative:clientapp\\src\\app\\staff\\staff.component.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B32098C6-C046-8A81-247D-67285523BF2F}|InsurancePortal.UI.csproj|d:\\learning\\onprem apps\\insuranceportal\\ui\\insuranceportal.ui\\clientapp\\src\\app\\profile\\profile.component.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{B32098C6-C046-8A81-247D-67285523BF2F}|InsurancePortal.UI.csproj|solutionrelative:clientapp\\src\\app\\profile\\profile.component.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B32098C6-C046-8A81-247D-67285523BF2F}|InsurancePortal.UI.csproj|d:\\learning\\onprem apps\\insuranceportal\\ui\\insuranceportal.ui\\clientapp\\src\\app\\quotes\\quote.model.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{B32098C6-C046-8A81-247D-67285523BF2F}|InsurancePortal.UI.csproj|solutionrelative:clientapp\\src\\app\\quotes\\quote.model.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B32098C6-C046-8A81-247D-67285523BF2F}|InsurancePortal.UI.csproj|d:\\learning\\onprem apps\\insuranceportal\\ui\\insuranceportal.ui\\clientapp\\src\\app\\quotes\\quote.service.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{B32098C6-C046-8A81-247D-67285523BF2F}|InsurancePortal.UI.csproj|solutionrelative:clientapp\\src\\app\\quotes\\quote.service.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B32098C6-C046-8A81-247D-67285523BF2F}|InsurancePortal.UI.csproj|d:\\learning\\onprem apps\\insuranceportal\\ui\\insuranceportal.ui\\clientapp\\src\\app\\quotes\\quote-detail\\quote-detail.component.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B32098C6-C046-8A81-247D-67285523BF2F}|InsurancePortal.UI.csproj|solutionrelative:clientapp\\src\\app\\quotes\\quote-detail\\quote-detail.component.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B32098C6-C046-8A81-247D-67285523BF2F}|InsurancePortal.UI.csproj|d:\\learning\\onprem apps\\insuranceportal\\ui\\insuranceportal.ui\\clientapp\\src\\app\\quotes\\quote-wizard\\quote-wizard.component.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B32098C6-C046-8A81-247D-67285523BF2F}|InsurancePortal.UI.csproj|solutionrelative:clientapp\\src\\app\\quotes\\quote-wizard\\quote-wizard.component.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B32098C6-C046-8A81-247D-67285523BF2F}|InsurancePortal.UI.csproj|d:\\learning\\onprem apps\\insuranceportal\\ui\\insuranceportal.ui\\clientapp\\src\\app\\quotes\\quote-detail\\quote-detail.component.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{B32098C6-C046-8A81-247D-67285523BF2F}|InsurancePortal.UI.csproj|solutionrelative:clientapp\\src\\app\\quotes\\quote-detail\\quote-detail.component.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B32098C6-C046-8A81-247D-67285523BF2F}|InsurancePortal.UI.csproj|d:\\learning\\onprem apps\\insuranceportal\\ui\\insuranceportal.ui\\clientapp\\src\\app\\quotes\\quote-components.spec.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{B32098C6-C046-8A81-247D-67285523BF2F}|InsurancePortal.UI.csproj|solutionrelative:clientapp\\src\\app\\quotes\\quote-components.spec.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\MrModi-Admin\\AppData\\Local\\Temp\\CopilotBaseline\\Deleted\\1356363156\\app.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B32098C6-C046-8A81-247D-67285523BF2F}|InsurancePortal.UI.csproj|d:\\learning\\onprem apps\\insuranceportal\\ui\\insuranceportal.ui\\clientapp\\src\\styles.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{B32098C6-C046-8A81-247D-67285523BF2F}|InsurancePortal.UI.csproj|solutionrelative:clientapp\\src\\styles.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\MrModi-Admin\\AppData\\Local\\Temp\\CopilotBaseline\\Deleted\\1356363156\\core.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\MrModi-Admin\\AppData\\Local\\Temp\\CopilotBaseline\\Deleted\\1356363156\\pages.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\MrModi-Admin\\AppData\\Local\\Temp\\CopilotBaseline\\Deleted\\1356363156\\quotes.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Learning\\OnPrem Apps\\InsurancePortal\\src\\InsurancePortal.IdentityService\\InsurancePortal.IdentityService.UnitTest\\Security\\HttpCurrentUserContextTests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B32098C6-C046-8A81-247D-67285523BF2F}|InsurancePortal.UI.csproj|d:\\learning\\onprem apps\\insuranceportal\\ui\\insuranceportal.ui\\clientapp\\src\\app\\shell\\shell.component.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{B32098C6-C046-8A81-247D-67285523BF2F}|InsurancePortal.UI.csproj|solutionrelative:clientapp\\src\\app\\shell\\shell.component.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B32098C6-C046-8A81-247D-67285523BF2F}|InsurancePortal.UI.csproj|d:\\learning\\onprem apps\\insuranceportal\\ui\\insuranceportal.ui\\clientapp\\src\\app\\auth\\auth-navigation.spec.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{B32098C6-C046-8A81-247D-67285523BF2F}|InsurancePortal.UI.csproj|solutionrelative:clientapp\\src\\app\\auth\\auth-navigation.spec.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B32098C6-C046-8A81-247D-67285523BF2F}|InsurancePortal.UI.csproj|d:\\learning\\onprem apps\\insuranceportal\\ui\\insuranceportal.ui\\clientapp\\src\\app\\auth\\auth-interaction.spec.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{B32098C6-C046-8A81-247D-67285523BF2F}|InsurancePortal.UI.csproj|solutionrelative:clientapp\\src\\app\\auth\\auth-interaction.spec.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B32098C6-C046-8A81-247D-67285523BF2F}|InsurancePortal.UI.csproj|d:\\learning\\onprem apps\\insuranceportal\\ui\\insuranceportal.ui\\clientapp\\src\\app\\profile\\profile.component.spec.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{B32098C6-C046-8A81-247D-67285523BF2F}|InsurancePortal.UI.csproj|solutionrelative:clientapp\\src\\app\\profile\\profile.component.spec.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B32098C6-C046-8A81-247D-67285523BF2F}|InsurancePortal.UI.csproj|d:\\learning\\onprem apps\\insuranceportal\\ui\\insuranceportal.ui\\clientapp\\src\\app\\quotes\\quote-fields.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{B32098C6-C046-8A81-247D-67285523BF2F}|InsurancePortal.UI.csproj|solutionrelative:clientapp\\src\\app\\quotes\\quote-fields.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B32098C6-C046-8A81-247D-67285523BF2F}|InsurancePortal.UI.csproj|d:\\learning\\onprem apps\\insuranceportal\\ui\\insuranceportal.ui\\clientapp\\src\\app\\quotes\\quote-lookup.service.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{B32098C6-C046-8A81-247D-67285523BF2F}|InsurancePortal.UI.csproj|solutionrelative:clientapp\\src\\app\\quotes\\quote-lookup.service.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B32098C6-C046-8A81-247D-67285523BF2F}|InsurancePortal.UI.csproj|d:\\learning\\onprem apps\\insuranceportal\\ui\\insuranceportal.ui\\clientapp\\src\\app\\app.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{B32098C6-C046-8A81-247D-67285523BF2F}|InsurancePortal.UI.csproj|solutionrelative:clientapp\\src\\app\\app.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B32098C6-C046-8A81-247D-67285523BF2F}|InsurancePortal.UI.csproj|d:\\learning\\onprem apps\\insuranceportal\\ui\\insuranceportal.ui\\clientapp\\src\\app\\app.spec.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{B32098C6-C046-8A81-247D-67285523BF2F}|InsurancePortal.UI.csproj|solutionrelative:clientapp\\src\\app\\app.spec.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B32098C6-C046-8A81-247D-67285523BF2F}|InsurancePortal.UI.csproj|d:\\learning\\onprem apps\\insuranceportal\\ui\\insuranceportal.ui\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B32098C6-C046-8A81-247D-67285523BF2F}|InsurancePortal.UI.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\MrModi-Admin\\AppData\\Local\\Temp\\CopilotBaseline\\Deleted\\-2087746664\\quote-list.component.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\MrModi-Admin\\AppData\\Local\\Temp\\CopilotBaseline\\Deleted\\-2087746664\\quote-list.component.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B32098C6-C046-8A81-247D-67285523BF2F}|InsurancePortal.UI.csproj|d:\\learning\\onprem apps\\insuranceportal\\ui\\insuranceportal.ui\\clientapp\\src\\app\\quotes\\quote-list\\quote-list.component.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B32098C6-C046-8A81-247D-67285523BF2F}|InsurancePortal.UI.csproj|solutionrelative:clientapp\\src\\app\\quotes\\quote-list\\quote-list.component.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B32098C6-C046-8A81-247D-67285523BF2F}|InsurancePortal.UI.csproj|d:\\learning\\onprem apps\\insuranceportal\\ui\\insuranceportal.ui\\clientapp\\src\\app\\quotes\\quote-list\\quote-list.component.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{B32098C6-C046-8A81-247D-67285523BF2F}|InsurancePortal.UI.csproj|solutionrelative:clientapp\\src\\app\\quotes\\quote-list\\quote-list.component.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 8,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{40ea2e6b-2121-4bb8-a43e-c83c04b51041}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 60,
+              "Title": "quote-list.component.ts",
+              "DocumentMoniker": "D:\\Learning\\OnPrem Apps\\InsurancePortal\\ui\\InsurancePortal.UI\\ClientApp\\src\\app\\quotes\\quote-list\\quote-list.component.ts",
+              "RelativeDocumentMoniker": "ClientApp\\src\\app\\quotes\\quote-list\\quote-list.component.ts",
+              "ToolTip": "D:\\Learning\\OnPrem Apps\\InsurancePortal\\ui\\InsurancePortal.UI\\ClientApp\\src\\app\\quotes\\quote-list\\quote-list.component.ts",
+              "RelativeToolTip": "ClientApp\\src\\app\\quotes\\quote-list\\quote-list.component.ts",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2026-11-26T16:53:29.496Z",
+              "EditorCaption": "",
+              "OwnerCaption": "%2"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 59,
+              "Title": "quote-list.component.html",
+              "DocumentMoniker": "D:\\Learning\\OnPrem Apps\\InsurancePortal\\ui\\InsurancePortal.UI\\ClientApp\\src\\app\\quotes\\quote-list\\quote-list.component.html",
+              "RelativeDocumentMoniker": "ClientApp\\src\\app\\quotes\\quote-list\\quote-list.component.html",
+              "ToolTip": "D:\\Learning\\OnPrem Apps\\InsurancePortal\\ui\\InsurancePortal.UI\\ClientApp\\src\\app\\quotes\\quote-list\\quote-list.component.html",
+              "RelativeToolTip": "ClientApp\\src\\app\\quotes\\quote-list\\quote-list.component.html",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2026-11-26T16:53:29.425Z",
+              "EditorCaption": "",
+              "OwnerCaption": "%2"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 58,
+              "Title": "quote-list.component.ts",
+              "DocumentMoniker": "C:\\Users\\MrModi-Admin\\AppData\\Local\\Temp\\CopilotBaseline\\Deleted\\-2087746664\\quote-list.component.ts",
+              "ToolTip": "C:\\Users\\MrModi-Admin\\AppData\\Local\\Temp\\CopilotBaseline\\Deleted\\-2087746664\\quote-list.component.ts",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2026-11-26T16:53:16.298Z",
+              "EditorCaption": "",
+              "OwnerCaption": "%3"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 57,
+              "Title": "quote-list.component.html",
+              "DocumentMoniker": "C:\\Users\\MrModi-Admin\\AppData\\Local\\Temp\\CopilotBaseline\\Deleted\\-2087746664\\quote-list.component.html",
+              "ToolTip": "C:\\Users\\MrModi-Admin\\AppData\\Local\\Temp\\CopilotBaseline\\Deleted\\-2087746664\\quote-list.component.html",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2026-11-26T16:53:16.134Z",
+              "EditorCaption": "",
+              "OwnerCaption": "%3"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 56,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Learning\\OnPrem Apps\\InsurancePortal\\ui\\InsurancePortal.UI\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "D:\\Learning\\OnPrem Apps\\InsurancePortal\\ui\\InsurancePortal.UI\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAABcAAAAAAAAAAIBJwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-26T16:10:40.73Z",
+              "EditorCaption": "",
+              "OwnerCaption": "%2"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 52,
+              "Title": "quote-fields.ts",
+              "DocumentMoniker": "D:\\Learning\\OnPrem Apps\\InsurancePortal\\ui\\InsurancePortal.UI\\ClientApp\\src\\app\\quotes\\quote-fields.ts",
+              "RelativeDocumentMoniker": "ClientApp\\src\\app\\quotes\\quote-fields.ts",
+              "ToolTip": "D:\\Learning\\OnPrem Apps\\InsurancePortal\\ui\\InsurancePortal.UI\\ClientApp\\src\\app\\quotes\\quote-fields.ts",
+              "RelativeToolTip": "ClientApp\\src\\app\\quotes\\quote-fields.ts",
+              "ViewState": "AgIAAA4AAAAAAAAAAIBJwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2026-11-26T15:41:15.59Z",
+              "EditorCaption": "",
+              "OwnerCaption": "%2"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "quote-wizard.component.ts",
+              "DocumentMoniker": "D:\\Learning\\OnPrem Apps\\InsurancePortal\\ui\\InsurancePortal.UI\\ClientApp\\src\\app\\quotes\\quote-wizard\\quote-wizard.component.ts",
+              "RelativeDocumentMoniker": "ClientApp\\src\\app\\quotes\\quote-wizard\\quote-wizard.component.ts",
+              "ToolTip": "D:\\Learning\\OnPrem Apps\\InsurancePortal\\ui\\InsurancePortal.UI\\ClientApp\\src\\app\\quotes\\quote-wizard\\quote-wizard.component.ts",
+              "RelativeToolTip": "ClientApp\\src\\app\\quotes\\quote-wizard\\quote-wizard.component.ts",
+              "ViewState": "AgIAAFQAAAAAAAAAAAAQwC0AAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2026-11-26T15:23:22.991Z",
+              "EditorCaption": "",
+              "OwnerCaption": "%2"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "InsurancePortalUI.md",
+              "DocumentMoniker": "D:\\Learning\\OnPrem Apps\\InsurancePortal\\ui\\InsurancePortal.UI\\InsurancePortalUI.md",
+              "RelativeDocumentMoniker": "InsurancePortalUI.md",
+              "ToolTip": "D:\\Learning\\OnPrem Apps\\InsurancePortal\\ui\\InsurancePortal.UI\\InsurancePortalUI.md",
+              "RelativeToolTip": "InsurancePortalUI.md",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001818|",
+              "WhenOpened": "2026-11-25T21:42:09.29Z",
+              "EditorCaption": "",
+              "OwnerCaption": "%2"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 53,
+              "Title": "quote-lookup.service.ts",
+              "DocumentMoniker": "D:\\Learning\\OnPrem Apps\\InsurancePortal\\ui\\InsurancePortal.UI\\ClientApp\\src\\app\\quotes\\quote-lookup.service.ts",
+              "RelativeDocumentMoniker": "ClientApp\\src\\app\\quotes\\quote-lookup.service.ts",
+              "ToolTip": "D:\\Learning\\OnPrem Apps\\InsurancePortal\\ui\\InsurancePortal.UI\\ClientApp\\src\\app\\quotes\\quote-lookup.service.ts",
+              "RelativeToolTip": "ClientApp\\src\\app\\quotes\\quote-lookup.service.ts",
+              "ViewState": "AgIAABIAAAAAAAAAAIBJwB4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2026-11-26T15:41:15.914Z",
+              "EditorCaption": "",
+              "OwnerCaption": "%2"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 54,
+              "Title": "app.ts",
+              "DocumentMoniker": "D:\\Learning\\OnPrem Apps\\InsurancePortal\\ui\\InsurancePortal.UI\\ClientApp\\src\\app\\app.ts",
+              "RelativeDocumentMoniker": "ClientApp\\src\\app\\app.ts",
+              "ToolTip": "D:\\Learning\\OnPrem Apps\\InsurancePortal\\ui\\InsurancePortal.UI\\ClientApp\\src\\app\\app.ts",
+              "RelativeToolTip": "ClientApp\\src\\app\\app.ts",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2026-11-26T15:42:33.299Z",
+              "EditorCaption": "",
+              "OwnerCaption": "%2"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 55,
+              "Title": "app.spec.ts",
+              "DocumentMoniker": "D:\\Learning\\OnPrem Apps\\InsurancePortal\\ui\\InsurancePortal.UI\\ClientApp\\src\\app\\app.spec.ts",
+              "RelativeDocumentMoniker": "ClientApp\\src\\app\\app.spec.ts",
+              "ToolTip": "D:\\Learning\\OnPrem Apps\\InsurancePortal\\ui\\InsurancePortal.UI\\ClientApp\\src\\app\\app.spec.ts",
+              "RelativeToolTip": "ClientApp\\src\\app\\app.spec.ts",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2026-11-26T15:42:33.383Z",
+              "EditorCaption": "",
+              "OwnerCaption": "%2"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "location.service.ts",
+              "DocumentMoniker": "D:\\Learning\\OnPrem Apps\\InsurancePortal\\ui\\InsurancePortal.UI\\ClientApp\\src\\app\\core\\location.service.ts",
+              "RelativeDocumentMoniker": "ClientApp\\src\\app\\core\\location.service.ts",
+              "ToolTip": "D:\\Learning\\OnPrem Apps\\InsurancePortal\\ui\\InsurancePortal.UI\\ClientApp\\src\\app\\core\\location.service.ts",
+              "RelativeToolTip": "ClientApp\\src\\app\\core\\location.service.ts",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2026-11-26T15:22:36.628Z",
+              "EditorCaption": "",
+              "OwnerCaption": "%2"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 51,
+              "Title": "profile.component.spec.ts",
+              "DocumentMoniker": "D:\\Learning\\OnPrem Apps\\InsurancePortal\\ui\\InsurancePortal.UI\\ClientApp\\src\\app\\profile\\profile.component.spec.ts",
+              "RelativeDocumentMoniker": "ClientApp\\src\\app\\profile\\profile.component.spec.ts",
+              "ToolTip": "D:\\Learning\\OnPrem Apps\\InsurancePortal\\ui\\InsurancePortal.UI\\ClientApp\\src\\app\\profile\\profile.component.spec.ts",
+              "RelativeToolTip": "ClientApp\\src\\app\\profile\\profile.component.spec.ts",
+              "ViewState": "AgIAAHwAAAAAAAAAAEBVwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2026-11-25T21:42:48.717Z",
+              "EditorCaption": "",
+              "OwnerCaption": "%2"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "InsurancePortal.UI.md",
+              "DocumentMoniker": "D:\\Learning\\OnPrem Apps\\InsurancePortal\\docs\\InsurancePortal.UI.md",
+              "RelativeDocumentMoniker": "..\\..\\docs\\InsurancePortal.UI.md",
+              "ToolTip": "D:\\Learning\\OnPrem Apps\\InsurancePortal\\docs\\InsurancePortal.UI.md",
+              "RelativeToolTip": "..\\..\\docs\\InsurancePortal.UI.md",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001818|",
+              "WhenOpened": "2026-11-25T21:22:34.658Z",
+              "EditorCaption": "",
+              "OwnerCaption": "%3"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 50,
+              "Title": "auth-interaction.spec.ts",
+              "DocumentMoniker": "D:\\Learning\\OnPrem Apps\\InsurancePortal\\ui\\InsurancePortal.UI\\ClientApp\\src\\app\\auth\\auth-interaction.spec.ts",
+              "RelativeDocumentMoniker": "ClientApp\\src\\app\\auth\\auth-interaction.spec.ts",
+              "ToolTip": "D:\\Learning\\OnPrem Apps\\InsurancePortal\\ui\\InsurancePortal.UI\\ClientApp\\src\\app\\auth\\auth-interaction.spec.ts",
+              "RelativeToolTip": "ClientApp\\src\\app\\auth\\auth-interaction.spec.ts",
+              "ViewState": "AgIAAHcAAAAAAAAAAEBVwAEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2026-11-25T21:18:28.388Z",
+              "EditorCaption": "",
+              "OwnerCaption": "%2"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "portal.spec.ts",
+              "DocumentMoniker": "D:\\Learning\\OnPrem Apps\\InsurancePortal\\ui\\InsurancePortal.UI\\ClientApp\\src\\app\\portal.spec.ts",
+              "RelativeDocumentMoniker": "ClientApp\\src\\app\\portal.spec.ts",
+              "ToolTip": "D:\\Learning\\OnPrem Apps\\InsurancePortal\\ui\\InsurancePortal.UI\\ClientApp\\src\\app\\portal.spec.ts",
+              "RelativeToolTip": "ClientApp\\src\\app\\portal.spec.ts",
+              "ViewState": "AgIAALAAAAAAAAAAAAAQwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2026-11-25T21:17:20.801Z",
+              "EditorCaption": "",
+              "OwnerCaption": "%2"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "HttpCurrentUserContext.cs",
+              "DocumentMoniker": "D:\\Learning\\OnPrem Apps\\InsurancePortal\\src\\InsurancePortal.IdentityService\\InsurancePortal.IdentityService.Api\\Security\\HttpCurrentUserContext.cs",
+              "RelativeDocumentMoniker": "..\\..\\src\\InsurancePortal.IdentityService\\InsurancePortal.IdentityService.Api\\Security\\HttpCurrentUserContext.cs",
+              "ToolTip": "D:\\Learning\\OnPrem Apps\\InsurancePortal\\src\\InsurancePortal.IdentityService\\InsurancePortal.IdentityService.Api\\Security\\HttpCurrentUserContext.cs",
+              "RelativeToolTip": "..\\..\\src\\InsurancePortal.IdentityService\\InsurancePortal.IdentityService.Api\\Security\\HttpCurrentUserContext.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAApwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-25T21:07:49.757Z",
+              "EditorCaption": "",
+              "OwnerCaption": "%3"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "auth.component.ts",
+              "DocumentMoniker": "D:\\Learning\\OnPrem Apps\\InsurancePortal\\ui\\InsurancePortal.UI\\ClientApp\\src\\app\\auth\\auth.component.ts",
+              "RelativeDocumentMoniker": "ClientApp\\src\\app\\auth\\auth.component.ts",
+              "ToolTip": "D:\\Learning\\OnPrem Apps\\InsurancePortal\\ui\\InsurancePortal.UI\\ClientApp\\src\\app\\auth\\auth.component.ts",
+              "RelativeToolTip": "ClientApp\\src\\app\\auth\\auth.component.ts",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAAGIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2026-11-25T20:38:51.679Z",
+              "EditorCaption": "",
+              "OwnerCaption": "%2"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "auth.component.html",
+              "DocumentMoniker": "D:\\Learning\\OnPrem Apps\\InsurancePortal\\ui\\InsurancePortal.UI\\ClientApp\\src\\app\\auth\\auth.component.html",
+              "RelativeDocumentMoniker": "ClientApp\\src\\app\\auth\\auth.component.html",
+              "ToolTip": "D:\\Learning\\OnPrem Apps\\InsurancePortal\\ui\\InsurancePortal.UI\\ClientApp\\src\\app\\auth\\auth.component.html",
+              "RelativeToolTip": "ClientApp\\src\\app\\auth\\auth.component.html",
+              "ViewState": "AgIAAB0AAAAAAAAAAADgv08AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2026-11-25T20:38:51.77Z",
+              "EditorCaption": "",
+              "OwnerCaption": "%2"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 48,
+              "Title": "shell.component.css",
+              "DocumentMoniker": "D:\\Learning\\OnPrem Apps\\InsurancePortal\\ui\\InsurancePortal.UI\\ClientApp\\src\\app\\shell\\shell.component.css",
+              "RelativeDocumentMoniker": "ClientApp\\src\\app\\shell\\shell.component.css",
+              "ToolTip": "D:\\Learning\\OnPrem Apps\\InsurancePortal\\ui\\InsurancePortal.UI\\ClientApp\\src\\app\\shell\\shell.component.css",
+              "RelativeToolTip": "ClientApp\\src\\app\\shell\\shell.component.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2026-11-25T21:07:58.377Z",
+              "EditorCaption": "",
+              "OwnerCaption": "%2"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 47,
+              "Title": "HttpCurrentUserContextTests.cs",
+              "DocumentMoniker": "D:\\Learning\\OnPrem Apps\\InsurancePortal\\src\\InsurancePortal.IdentityService\\InsurancePortal.IdentityService.UnitTest\\Security\\HttpCurrentUserContextTests.cs",
+              "RelativeDocumentMoniker": "..\\..\\src\\InsurancePortal.IdentityService\\InsurancePortal.IdentityService.UnitTest\\Security\\HttpCurrentUserContextTests.cs",
+              "ToolTip": "D:\\Learning\\OnPrem Apps\\InsurancePortal\\src\\InsurancePortal.IdentityService\\InsurancePortal.IdentityService.UnitTest\\Security\\HttpCurrentUserContextTests.cs",
+              "RelativeToolTip": "..\\..\\src\\InsurancePortal.IdentityService\\InsurancePortal.IdentityService.UnitTest\\Security\\HttpCurrentUserContextTests.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-25T21:06:49.84Z",
+              "EditorCaption": "",
+              "OwnerCaption": "%3"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 49,
+              "Title": "auth-navigation.spec.ts",
+              "DocumentMoniker": "D:\\Learning\\OnPrem Apps\\InsurancePortal\\ui\\InsurancePortal.UI\\ClientApp\\src\\app\\auth\\auth-navigation.spec.ts",
+              "RelativeDocumentMoniker": "ClientApp\\src\\app\\auth\\auth-navigation.spec.ts",
+              "ToolTip": "D:\\Learning\\OnPrem Apps\\InsurancePortal\\ui\\InsurancePortal.UI\\ClientApp\\src\\app\\auth\\auth-navigation.spec.ts",
+              "RelativeToolTip": "ClientApp\\src\\app\\auth\\auth-navigation.spec.ts",
+              "ViewState": "AgIAAAAAAAAAAAAAAIBJwEEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2026-11-25T21:08:21.039Z",
+              "EditorCaption": "",
+              "OwnerCaption": "%2"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "session.service.ts",
+              "DocumentMoniker": "D:\\Learning\\OnPrem Apps\\InsurancePortal\\ui\\InsurancePortal.UI\\ClientApp\\src\\app\\core\\session.service.ts",
+              "RelativeDocumentMoniker": "ClientApp\\src\\app\\core\\session.service.ts",
+              "ToolTip": "D:\\Learning\\OnPrem Apps\\InsurancePortal\\ui\\InsurancePortal.UI\\ClientApp\\src\\app\\core\\session.service.ts",
+              "RelativeToolTip": "ClientApp\\src\\app\\core\\session.service.ts",
+              "ViewState": "AgIAAB0AAAAAAAAAAAAlwHcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2026-11-25T20:38:17.573Z",
+              "EditorCaption": "",
+              "OwnerCaption": "%2"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\Learning\\OnPrem Apps\\InsurancePortal\\ui\\InsurancePortal.UI\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "D:\\Learning\\OnPrem Apps\\InsurancePortal\\ui\\InsurancePortal.UI\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-11-25T20:53:28.486Z",
+              "EditorCaption": "",
+              "OwnerCaption": "%2"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "feature.service.ts",
+              "DocumentMoniker": "D:\\Learning\\OnPrem Apps\\InsurancePortal\\ui\\InsurancePortal.UI\\ClientApp\\src\\app\\core\\feature.service.ts",
+              "RelativeDocumentMoniker": "ClientApp\\src\\app\\core\\feature.service.ts",
+              "ToolTip": "D:\\Learning\\OnPrem Apps\\InsurancePortal\\ui\\InsurancePortal.UI\\ClientApp\\src\\app\\core\\feature.service.ts",
+              "RelativeToolTip": "ClientApp\\src\\app\\core\\feature.service.ts",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2026-11-25T20:47:51.125Z",
+              "EditorCaption": "",
+              "OwnerCaption": "%2"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "auth.guards.ts",
+              "DocumentMoniker": "D:\\Learning\\OnPrem Apps\\InsurancePortal\\ui\\InsurancePortal.UI\\ClientApp\\src\\app\\core\\auth.guards.ts",
+              "RelativeDocumentMoniker": "ClientApp\\src\\app\\core\\auth.guards.ts",
+              "ToolTip": "D:\\Learning\\OnPrem Apps\\InsurancePortal\\ui\\InsurancePortal.UI\\ClientApp\\src\\app\\core\\auth.guards.ts",
+              "RelativeToolTip": "ClientApp\\src\\app\\core\\auth.guards.ts",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2026-11-25T20:38:17.857Z",
+              "EditorCaption": "",
+              "OwnerCaption": "%2"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "core.ts",
+              "DocumentMoniker": "C:\\Users\\MrModi-Admin\\AppData\\Local\\Temp\\CopilotBaseline\\Deleted\\1356363156\\core.ts",
+              "ToolTip": "C:\\Users\\MrModi-Admin\\AppData\\Local\\Temp\\CopilotBaseline\\Deleted\\1356363156\\core.ts",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2026-11-25T20:48:01.741Z",
+              "EditorCaption": "",
+              "OwnerCaption": "%3"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "app.css",
+              "DocumentMoniker": "C:\\Users\\MrModi-Admin\\AppData\\Local\\Temp\\CopilotBaseline\\Deleted\\1356363156\\app.css",
+              "ToolTip": "C:\\Users\\MrModi-Admin\\AppData\\Local\\Temp\\CopilotBaseline\\Deleted\\1356363156\\app.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2026-11-25T20:47:58.911Z",
+              "EditorCaption": "",
+              "OwnerCaption": "%3"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "styles.css",
+              "DocumentMoniker": "D:\\Learning\\OnPrem Apps\\InsurancePortal\\ui\\InsurancePortal.UI\\ClientApp\\src\\styles.css",
+              "RelativeDocumentMoniker": "ClientApp\\src\\styles.css",
+              "ToolTip": "D:\\Learning\\OnPrem Apps\\InsurancePortal\\ui\\InsurancePortal.UI\\ClientApp\\src\\styles.css",
+              "RelativeToolTip": "ClientApp\\src\\styles.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2026-11-25T20:47:59.543Z",
+              "EditorCaption": "",
+              "OwnerCaption": "%2"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "pages.ts",
+              "DocumentMoniker": "C:\\Users\\MrModi-Admin\\AppData\\Local\\Temp\\CopilotBaseline\\Deleted\\1356363156\\pages.ts",
+              "ToolTip": "C:\\Users\\MrModi-Admin\\AppData\\Local\\Temp\\CopilotBaseline\\Deleted\\1356363156\\pages.ts",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2026-11-25T20:48:01.826Z",
+              "EditorCaption": "",
+              "OwnerCaption": "%3"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
+              "Title": "quotes.ts",
+              "DocumentMoniker": "C:\\Users\\MrModi-Admin\\AppData\\Local\\Temp\\CopilotBaseline\\Deleted\\1356363156\\quotes.ts",
+              "ToolTip": "C:\\Users\\MrModi-Admin\\AppData\\Local\\Temp\\CopilotBaseline\\Deleted\\1356363156\\quotes.ts",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2026-11-25T20:48:01.909Z",
+              "EditorCaption": "",
+              "OwnerCaption": "%3"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "README.md",
+              "DocumentMoniker": "D:\\Learning\\OnPrem Apps\\InsurancePortal\\ui\\InsurancePortal.UI\\ClientApp\\README.md",
+              "RelativeDocumentMoniker": "ClientApp\\README.md",
+              "ToolTip": "D:\\Learning\\OnPrem Apps\\InsurancePortal\\ui\\InsurancePortal.UI\\ClientApp\\README.md",
+              "RelativeToolTip": "ClientApp\\README.md",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001818|",
+              "WhenOpened": "2026-11-25T20:45:41.973Z",
+              "EditorCaption": "",
+              "OwnerCaption": "%2"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "README.md",
+              "DocumentMoniker": "D:\\Learning\\OnPrem Apps\\InsurancePortal\\ui\\InsurancePortal.UI\\README.md",
+              "RelativeDocumentMoniker": "README.md",
+              "ToolTip": "D:\\Learning\\OnPrem Apps\\InsurancePortal\\ui\\InsurancePortal.UI\\README.md",
+              "RelativeToolTip": "README.md",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAB0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001818|",
+              "WhenOpened": "2026-11-25T20:45:41.499Z",
+              "EditorCaption": "",
+              "OwnerCaption": "%2"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "quote-components.spec.ts",
+              "DocumentMoniker": "D:\\Learning\\OnPrem Apps\\InsurancePortal\\ui\\InsurancePortal.UI\\ClientApp\\src\\app\\quotes\\quote-components.spec.ts",
+              "RelativeDocumentMoniker": "ClientApp\\src\\app\\quotes\\quote-components.spec.ts",
+              "ToolTip": "D:\\Learning\\OnPrem Apps\\InsurancePortal\\ui\\InsurancePortal.UI\\ClientApp\\src\\app\\quotes\\quote-components.spec.ts",
+              "RelativeToolTip": "ClientApp\\src\\app\\quotes\\quote-components.spec.ts",
+              "ViewState": "AgIAAGgBAAAAAAAAAIBJwI4BAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2026-11-25T20:41:44.171Z",
+              "EditorCaption": "",
+              "OwnerCaption": "%2"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "quote-detail.component.ts",
+              "DocumentMoniker": "D:\\Learning\\OnPrem Apps\\InsurancePortal\\ui\\InsurancePortal.UI\\ClientApp\\src\\app\\quotes\\quote-detail\\quote-detail.component.ts",
+              "RelativeDocumentMoniker": "ClientApp\\src\\app\\quotes\\quote-detail\\quote-detail.component.ts",
+              "ToolTip": "D:\\Learning\\OnPrem Apps\\InsurancePortal\\ui\\InsurancePortal.UI\\ClientApp\\src\\app\\quotes\\quote-detail\\quote-detail.component.ts",
+              "RelativeToolTip": "ClientApp\\src\\app\\quotes\\quote-detail\\quote-detail.component.ts",
+              "ViewState": "AgIAAEYAAAAAAAAAAIBJwG4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2026-11-25T20:40:28.801Z",
+              "EditorCaption": "",
+              "OwnerCaption": "%2"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "quote-wizard.component.html",
+              "DocumentMoniker": "D:\\Learning\\OnPrem Apps\\InsurancePortal\\ui\\InsurancePortal.UI\\ClientApp\\src\\app\\quotes\\quote-wizard\\quote-wizard.component.html",
+              "RelativeDocumentMoniker": "ClientApp\\src\\app\\quotes\\quote-wizard\\quote-wizard.component.html",
+              "ToolTip": "D:\\Learning\\OnPrem Apps\\InsurancePortal\\ui\\InsurancePortal.UI\\ClientApp\\src\\app\\quotes\\quote-wizard\\quote-wizard.component.html",
+              "RelativeToolTip": "ClientApp\\src\\app\\quotes\\quote-wizard\\quote-wizard.component.html",
+              "ViewState": "AgIAAD4AAAAAAAAAAIBJwIsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2026-11-25T20:40:28.704Z",
+              "EditorCaption": "",
+              "OwnerCaption": "%2"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "quote-detail.component.html",
+              "DocumentMoniker": "D:\\Learning\\OnPrem Apps\\InsurancePortal\\ui\\InsurancePortal.UI\\ClientApp\\src\\app\\quotes\\quote-detail\\quote-detail.component.html",
+              "RelativeDocumentMoniker": "ClientApp\\src\\app\\quotes\\quote-detail\\quote-detail.component.html",
+              "ToolTip": "D:\\Learning\\OnPrem Apps\\InsurancePortal\\ui\\InsurancePortal.UI\\ClientApp\\src\\app\\quotes\\quote-detail\\quote-detail.component.html",
+              "RelativeToolTip": "ClientApp\\src\\app\\quotes\\quote-detail\\quote-detail.component.html",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2026-11-25T20:40:28.636Z",
+              "EditorCaption": "",
+              "OwnerCaption": "%2"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "quote.service.ts",
+              "DocumentMoniker": "D:\\Learning\\OnPrem Apps\\InsurancePortal\\ui\\InsurancePortal.UI\\ClientApp\\src\\app\\quotes\\quote.service.ts",
+              "RelativeDocumentMoniker": "ClientApp\\src\\app\\quotes\\quote.service.ts",
+              "ToolTip": "D:\\Learning\\OnPrem Apps\\InsurancePortal\\ui\\InsurancePortal.UI\\ClientApp\\src\\app\\quotes\\quote.service.ts",
+              "RelativeToolTip": "ClientApp\\src\\app\\quotes\\quote.service.ts",
+              "ViewState": "AgIAAAgAAAAAAAAAAIBJwBUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2026-11-25T20:39:52.466Z",
+              "EditorCaption": "",
+              "OwnerCaption": "%2"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "quote.model.ts",
+              "DocumentMoniker": "D:\\Learning\\OnPrem Apps\\InsurancePortal\\ui\\InsurancePortal.UI\\ClientApp\\src\\app\\quotes\\quote.model.ts",
+              "RelativeDocumentMoniker": "ClientApp\\src\\app\\quotes\\quote.model.ts",
+              "ToolTip": "D:\\Learning\\OnPrem Apps\\InsurancePortal\\ui\\InsurancePortal.UI\\ClientApp\\src\\app\\quotes\\quote.model.ts",
+              "RelativeToolTip": "ClientApp\\src\\app\\quotes\\quote.model.ts",
+              "ViewState": "AgIAABEAAAAAAAAAAIBQwCMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2026-11-25T20:39:52.401Z",
+              "EditorCaption": "",
+              "OwnerCaption": "%2"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "profile.component.ts",
+              "DocumentMoniker": "D:\\Learning\\OnPrem Apps\\InsurancePortal\\ui\\InsurancePortal.UI\\ClientApp\\src\\app\\profile\\profile.component.ts",
+              "RelativeDocumentMoniker": "ClientApp\\src\\app\\profile\\profile.component.ts",
+              "ToolTip": "D:\\Learning\\OnPrem Apps\\InsurancePortal\\ui\\InsurancePortal.UI\\ClientApp\\src\\app\\profile\\profile.component.ts",
+              "RelativeToolTip": "ClientApp\\src\\app\\profile\\profile.component.ts",
+              "ViewState": "AgIAAAAAAAAAAAAAAEBVwEAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2026-11-25T20:39:24.311Z",
+              "EditorCaption": "",
+              "OwnerCaption": "%2"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "staff.component.ts",
+              "DocumentMoniker": "D:\\Learning\\OnPrem Apps\\InsurancePortal\\ui\\InsurancePortal.UI\\ClientApp\\src\\app\\staff\\staff.component.ts",
+              "RelativeDocumentMoniker": "ClientApp\\src\\app\\staff\\staff.component.ts",
+              "ToolTip": "D:\\Learning\\OnPrem Apps\\InsurancePortal\\ui\\InsurancePortal.UI\\ClientApp\\src\\app\\staff\\staff.component.ts",
+              "RelativeToolTip": "ClientApp\\src\\app\\staff\\staff.component.ts",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2026-11-25T20:39:24.185Z",
+              "EditorCaption": "",
+              "OwnerCaption": "%2"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "profile.component.html",
+              "DocumentMoniker": "D:\\Learning\\OnPrem Apps\\InsurancePortal\\ui\\InsurancePortal.UI\\ClientApp\\src\\app\\profile\\profile.component.html",
+              "RelativeDocumentMoniker": "ClientApp\\src\\app\\profile\\profile.component.html",
+              "ToolTip": "D:\\Learning\\OnPrem Apps\\InsurancePortal\\ui\\InsurancePortal.UI\\ClientApp\\src\\app\\profile\\profile.component.html",
+              "RelativeToolTip": "ClientApp\\src\\app\\profile\\profile.component.html",
+              "ViewState": "AgIAAAQAAAAAAAAAAABhwDcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2026-11-25T20:39:24.094Z",
+              "EditorCaption": "",
+              "OwnerCaption": "%2"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "staff.component.html",
+              "DocumentMoniker": "D:\\Learning\\OnPrem Apps\\InsurancePortal\\ui\\InsurancePortal.UI\\ClientApp\\src\\app\\staff\\staff.component.html",
+              "RelativeDocumentMoniker": "ClientApp\\src\\app\\staff\\staff.component.html",
+              "ToolTip": "D:\\Learning\\OnPrem Apps\\InsurancePortal\\ui\\InsurancePortal.UI\\ClientApp\\src\\app\\staff\\staff.component.html",
+              "RelativeToolTip": "ClientApp\\src\\app\\staff\\staff.component.html",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2026-11-25T20:39:23.74Z",
+              "EditorCaption": "",
+              "OwnerCaption": "%2"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "coming-soon.component.html",
+              "DocumentMoniker": "D:\\Learning\\OnPrem Apps\\InsurancePortal\\ui\\InsurancePortal.UI\\ClientApp\\src\\app\\shared\\coming-soon\\coming-soon.component.html",
+              "RelativeDocumentMoniker": "ClientApp\\src\\app\\shared\\coming-soon\\coming-soon.component.html",
+              "ToolTip": "D:\\Learning\\OnPrem Apps\\InsurancePortal\\ui\\InsurancePortal.UI\\ClientApp\\src\\app\\shared\\coming-soon\\coming-soon.component.html",
+              "RelativeToolTip": "ClientApp\\src\\app\\shared\\coming-soon\\coming-soon.component.html",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2026-11-25T20:39:23.548Z",
+              "EditorCaption": "",
+              "OwnerCaption": "%2"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "dashboard.component.ts",
+              "DocumentMoniker": "D:\\Learning\\OnPrem Apps\\InsurancePortal\\ui\\InsurancePortal.UI\\ClientApp\\src\\app\\dashboard\\dashboard.component.ts",
+              "RelativeDocumentMoniker": "ClientApp\\src\\app\\dashboard\\dashboard.component.ts",
+              "ToolTip": "D:\\Learning\\OnPrem Apps\\InsurancePortal\\ui\\InsurancePortal.UI\\ClientApp\\src\\app\\dashboard\\dashboard.component.ts",
+              "RelativeToolTip": "ClientApp\\src\\app\\dashboard\\dashboard.component.ts",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2026-11-25T20:39:23.476Z",
+              "EditorCaption": "",
+              "OwnerCaption": "%2"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "coming-soon.component.ts",
+              "DocumentMoniker": "D:\\Learning\\OnPrem Apps\\InsurancePortal\\ui\\InsurancePortal.UI\\ClientApp\\src\\app\\shared\\coming-soon\\coming-soon.component.ts",
+              "RelativeDocumentMoniker": "ClientApp\\src\\app\\shared\\coming-soon\\coming-soon.component.ts",
+              "ToolTip": "D:\\Learning\\OnPrem Apps\\InsurancePortal\\ui\\InsurancePortal.UI\\ClientApp\\src\\app\\shared\\coming-soon\\coming-soon.component.ts",
+              "RelativeToolTip": "ClientApp\\src\\app\\shared\\coming-soon\\coming-soon.component.ts",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2026-11-25T20:39:23.352Z",
+              "EditorCaption": "",
+              "OwnerCaption": "%2"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "dashboard.component.html",
+              "DocumentMoniker": "D:\\Learning\\OnPrem Apps\\InsurancePortal\\ui\\InsurancePortal.UI\\ClientApp\\src\\app\\dashboard\\dashboard.component.html",
+              "RelativeDocumentMoniker": "ClientApp\\src\\app\\dashboard\\dashboard.component.html",
+              "ToolTip": "D:\\Learning\\OnPrem Apps\\InsurancePortal\\ui\\InsurancePortal.UI\\ClientApp\\src\\app\\dashboard\\dashboard.component.html",
+              "RelativeToolTip": "ClientApp\\src\\app\\dashboard\\dashboard.component.html",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2026-11-25T20:39:23.149Z",
+              "EditorCaption": "",
+              "OwnerCaption": "%2"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "shell.component.ts",
+              "DocumentMoniker": "D:\\Learning\\OnPrem Apps\\InsurancePortal\\ui\\InsurancePortal.UI\\ClientApp\\src\\app\\shell\\shell.component.ts",
+              "RelativeDocumentMoniker": "ClientApp\\src\\app\\shell\\shell.component.ts",
+              "ToolTip": "D:\\Learning\\OnPrem Apps\\InsurancePortal\\ui\\InsurancePortal.UI\\ClientApp\\src\\app\\shell\\shell.component.ts",
+              "RelativeToolTip": "ClientApp\\src\\app\\shell\\shell.component.ts",
+              "ViewState": "AgIAAAcAAAAAAAAAAIBJwDoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2026-11-25T20:39:22.918Z",
+              "EditorCaption": "",
+              "OwnerCaption": "%2"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "shell.component.html",
+              "DocumentMoniker": "D:\\Learning\\OnPrem Apps\\InsurancePortal\\ui\\InsurancePortal.UI\\ClientApp\\src\\app\\shell\\shell.component.html",
+              "RelativeDocumentMoniker": "ClientApp\\src\\app\\shell\\shell.component.html",
+              "ToolTip": "D:\\Learning\\OnPrem Apps\\InsurancePortal\\ui\\InsurancePortal.UI\\ClientApp\\src\\app\\shell\\shell.component.html",
+              "RelativeToolTip": "ClientApp\\src\\app\\shell\\shell.component.html",
+              "ViewState": "AgIAACMAAAAAAAAAAABRwCwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2026-11-25T20:39:22.819Z",
+              "EditorCaption": "",
+              "OwnerCaption": "%2"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "access-denied.component.ts",
+              "DocumentMoniker": "D:\\Learning\\OnPrem Apps\\InsurancePortal\\ui\\InsurancePortal.UI\\ClientApp\\src\\app\\auth\\access-denied\\access-denied.component.ts",
+              "RelativeDocumentMoniker": "ClientApp\\src\\app\\auth\\access-denied\\access-denied.component.ts",
+              "ToolTip": "D:\\Learning\\OnPrem Apps\\InsurancePortal\\ui\\InsurancePortal.UI\\ClientApp\\src\\app\\auth\\access-denied\\access-denied.component.ts",
+              "RelativeToolTip": "ClientApp\\src\\app\\auth\\access-denied\\access-denied.component.ts",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2026-11-25T20:38:52.094Z",
+              "EditorCaption": "",
+              "OwnerCaption": "%2"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "access-denied.component.html",
+              "DocumentMoniker": "D:\\Learning\\OnPrem Apps\\InsurancePortal\\ui\\InsurancePortal.UI\\ClientApp\\src\\app\\auth\\access-denied\\access-denied.component.html",
+              "RelativeDocumentMoniker": "ClientApp\\src\\app\\auth\\access-denied\\access-denied.component.html",
+              "ToolTip": "D:\\Learning\\OnPrem Apps\\InsurancePortal\\ui\\InsurancePortal.UI\\ClientApp\\src\\app\\auth\\access-denied\\access-denied.component.html",
+              "RelativeToolTip": "ClientApp\\src\\app\\auth\\access-denied\\access-denied.component.html",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2026-11-25T20:38:51.94Z",
+              "EditorCaption": "",
+              "OwnerCaption": "%2"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "product.component.ts",
+              "DocumentMoniker": "D:\\Learning\\OnPrem Apps\\InsurancePortal\\ui\\InsurancePortal.UI\\ClientApp\\src\\app\\public\\product\\product.component.ts",
+              "RelativeDocumentMoniker": "ClientApp\\src\\app\\public\\product\\product.component.ts",
+              "ToolTip": "D:\\Learning\\OnPrem Apps\\InsurancePortal\\ui\\InsurancePortal.UI\\ClientApp\\src\\app\\public\\product\\product.component.ts",
+              "RelativeToolTip": "ClientApp\\src\\app\\public\\product\\product.component.ts",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2026-11-25T20:38:51.257Z",
+              "EditorCaption": "",
+              "OwnerCaption": "%2"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "public.component.ts",
+              "DocumentMoniker": "D:\\Learning\\OnPrem Apps\\InsurancePortal\\ui\\InsurancePortal.UI\\ClientApp\\src\\app\\public\\public.component.ts",
+              "RelativeDocumentMoniker": "ClientApp\\src\\app\\public\\public.component.ts",
+              "ToolTip": "D:\\Learning\\OnPrem Apps\\InsurancePortal\\ui\\InsurancePortal.UI\\ClientApp\\src\\app\\public\\public.component.ts",
+              "RelativeToolTip": "ClientApp\\src\\app\\public\\public.component.ts",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2026-11-25T20:38:51.176Z",
+              "EditorCaption": "",
+              "OwnerCaption": "%2"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "public.component.html",
+              "DocumentMoniker": "D:\\Learning\\OnPrem Apps\\InsurancePortal\\ui\\InsurancePortal.UI\\ClientApp\\src\\app\\public\\public.component.html",
+              "RelativeDocumentMoniker": "ClientApp\\src\\app\\public\\public.component.html",
+              "ToolTip": "D:\\Learning\\OnPrem Apps\\InsurancePortal\\ui\\InsurancePortal.UI\\ClientApp\\src\\app\\public\\public.component.html",
+              "RelativeToolTip": "ClientApp\\src\\app\\public\\public.component.html",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2026-11-25T20:38:51.101Z",
+              "EditorCaption": "",
+              "OwnerCaption": "%2"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "product.component.html",
+              "DocumentMoniker": "D:\\Learning\\OnPrem Apps\\InsurancePortal\\ui\\InsurancePortal.UI\\ClientApp\\src\\app\\public\\product\\product.component.html",
+              "RelativeDocumentMoniker": "ClientApp\\src\\app\\public\\product\\product.component.html",
+              "ToolTip": "D:\\Learning\\OnPrem Apps\\InsurancePortal\\ui\\InsurancePortal.UI\\ClientApp\\src\\app\\public\\product\\product.component.html",
+              "RelativeToolTip": "ClientApp\\src\\app\\public\\product\\product.component.html",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2026-11-25T20:38:51.017Z",
+              "EditorCaption": "",
+              "OwnerCaption": "%2"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "app.html",
+              "DocumentMoniker": "D:\\Learning\\OnPrem Apps\\InsurancePortal\\ui\\InsurancePortal.UI\\ClientApp\\src\\app\\app.html",
+              "RelativeDocumentMoniker": "ClientApp\\src\\app\\app.html",
+              "ToolTip": "D:\\Learning\\OnPrem Apps\\InsurancePortal\\ui\\InsurancePortal.UI\\ClientApp\\src\\app\\app.html",
+              "RelativeToolTip": "ClientApp\\src\\app\\app.html",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2026-11-25T20:38:17.722Z",
+              "EditorCaption": "",
+              "OwnerCaption": "%2"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "error-message.ts",
+              "DocumentMoniker": "D:\\Learning\\OnPrem Apps\\InsurancePortal\\ui\\InsurancePortal.UI\\ClientApp\\src\\app\\core\\error-message.ts",
+              "RelativeDocumentMoniker": "ClientApp\\src\\app\\core\\error-message.ts",
+              "ToolTip": "D:\\Learning\\OnPrem Apps\\InsurancePortal\\ui\\InsurancePortal.UI\\ClientApp\\src\\app\\core\\error-message.ts",
+              "RelativeToolTip": "ClientApp\\src\\app\\core\\error-message.ts",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2026-11-25T20:38:17.654Z",
+              "EditorCaption": "",
+              "OwnerCaption": "%2"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "auth.interceptor.ts",
+              "DocumentMoniker": "D:\\Learning\\OnPrem Apps\\InsurancePortal\\ui\\InsurancePortal.UI\\ClientApp\\src\\app\\core\\auth.interceptor.ts",
+              "RelativeDocumentMoniker": "ClientApp\\src\\app\\core\\auth.interceptor.ts",
+              "ToolTip": "D:\\Learning\\OnPrem Apps\\InsurancePortal\\ui\\InsurancePortal.UI\\ClientApp\\src\\app\\core\\auth.interceptor.ts",
+              "RelativeToolTip": "ClientApp\\src\\app\\core\\auth.interceptor.ts",
+              "ViewState": "AgIAAAYAAAAAAAAAAEBVwBkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2026-11-25T20:38:17.497Z",
+              "EditorCaption": "",
+              "OwnerCaption": "%2"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "app.routes.ts",
+              "DocumentMoniker": "D:\\Learning\\OnPrem Apps\\InsurancePortal\\ui\\InsurancePortal.UI\\ClientApp\\src\\app\\app.routes.ts",
+              "RelativeDocumentMoniker": "ClientApp\\src\\app\\app.routes.ts",
+              "ToolTip": "D:\\Learning\\OnPrem Apps\\InsurancePortal\\ui\\InsurancePortal.UI\\ClientApp\\src\\app\\app.routes.ts",
+              "RelativeToolTip": "ClientApp\\src\\app\\app.routes.ts",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2026-11-25T20:35:55.277Z",
+              "EditorCaption": "",
+              "OwnerCaption": "%2"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "app.config.ts",
+              "DocumentMoniker": "D:\\Learning\\OnPrem Apps\\InsurancePortal\\ui\\InsurancePortal.UI\\ClientApp\\src\\app\\app.config.ts",
+              "RelativeDocumentMoniker": "ClientApp\\src\\app\\app.config.ts",
+              "ToolTip": "D:\\Learning\\OnPrem Apps\\InsurancePortal\\ui\\InsurancePortal.UI\\ClientApp\\src\\app\\app.config.ts",
+              "RelativeToolTip": "ClientApp\\src\\app\\app.config.ts",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2026-11-25T20:35:53.148Z",
+              "EditorCaption": "",
+              "OwnerCaption": "%2"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "index.html",
+              "DocumentMoniker": "D:\\Learning\\OnPrem Apps\\InsurancePortal\\ui\\InsurancePortal.UI\\ClientApp\\src\\index.html",
+              "RelativeDocumentMoniker": "ClientApp\\src\\index.html",
+              "ToolTip": "D:\\Learning\\OnPrem Apps\\InsurancePortal\\ui\\InsurancePortal.UI\\ClientApp\\src\\index.html",
+              "RelativeToolTip": "ClientApp\\src\\index.html",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2026-11-25T20:35:48.555Z",
+              "EditorCaption": "",
+              "OwnerCaption": "%2"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

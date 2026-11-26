@@ -1,0 +1,66 @@
+<header class="public-header">
+  <a class="brand" routerLink="/">◈ <span>Insurance Portal</span></a>
+  <nav>
+    <a href="/#products">Products</a><a href="/#how-it-works">How it works</a
+    ><a routerLink="/sign-in">Sign in</a
+    ><a class="button small" routerLink="/sign-up">Create account</a>
+  </nav>
+</header>
+<main>
+  <section class="hero">
+    <div>
+      <span class="eyebrow">COVERAGE FOR WHAT MATTERS</span>
+      <h1>Insurance made <span>simpler.</span></h1>
+      <p>Explore coverage and manage your insurance in one place.</p>
+      <div class="actions">
+        <a class="button" routerLink="/portal/quotes/new"
+          >Get a quote <span aria-hidden="true">→</span></a
+        ><a class="button secondary" href="/#products">Explore products</a>
+      </div>
+    </div>
+    <div class="hero-art" aria-hidden="true">
+      <div class="art-card">
+        <span class="art-icon">⌂</span><strong>Here for what matters</strong
+        ><small>Protection starts with a plan.</small>
+      </div>
+      <span class="art-dot one"></span><span class="art-dot two"></span>
+    </div>
+  </section>
+  <section class="section" id="products">
+    <span class="eyebrow">EXPLORE YOUR OPTIONS</span>
+    <h2>Find coverage that fits your life</h2>
+    <p class="muted">Start with the type of insurance you're looking for.</p>
+    <div class="cards three">
+      @for (product of products; track product.name) {
+        <article class="card product">
+          <span class="product-icon">{{ product.icon }}</span>
+          <h3>{{ product.name }} insurance</h3>
+          <p>{{ product.description }}</p>
+          <a [routerLink]="['/products', product.name.toLowerCase()]">Learn more →</a>
+        </article>
+      }
+    </div>
+  </section>
+  <section class="section soft" id="how-it-works">
+    <span class="eyebrow">SIMPLE FROM THE START</span>
+    <h2>How it works</h2>
+    <div class="cards three steps">
+      <div>
+        <b>01</b>
+        <h3>Create an account</h3>
+        <p>Sign up to access your portal.</p>
+      </div>
+      <div>
+        <b>02</b>
+        <h3>Request a quote</h3>
+        <p>Tell us what you want to insure.</p>
+      </div>
+      <div>
+        <b>03</b>
+        <h3>Review your options</h3>
+        <p>Return to your quote when you need it.</p>
+      </div>
+    </div>
+  </section>
+</main>
+<footer>◈ Insurance Portal <span>Insurance made simpler.</span></footer>

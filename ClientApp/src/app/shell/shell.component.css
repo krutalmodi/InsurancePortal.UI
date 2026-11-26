@@ -1,0 +1,21 @@
+.account-details {
+  display: grid;
+  text-align: right;
+  line-height: 1.3;
+  overflow-wrap: anywhere;
+}
+
+.account-details strong {
+  color: #17324d;
+}
+
+.account-details span {
+  font-size: 0.75rem;
+}
+
+@media (max-width: 800px) {
+  .account {
+    min-width: 0;
+    gap: 0.5rem;
+  }
+}

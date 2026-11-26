@@ -1,0 +1,20 @@
+<header class="public-header">
+  <a class="brand" routerLink="/">◈ <span>Insurance Portal</span></a>
+</header>
+<main class="section">
+  <section class="card empty">
+    <h1>Access unavailable</h1>
+    <p>
+      Your account does not have access to this workspace. Contact your administrator if you need
+      help.
+    </p>
+    <div class="actions" style="justify-content: center">
+      <a class="button secondary" routerLink="/">Back to home</a>
+      @if (session.user()) {
+        <button class="button" (click)="session.signOut()">Sign out</button>
+      } @else {
+        <a class="button" routerLink="/sign-in">Sign in</a>
+      }
+    </div>
+  </section>
+</main>

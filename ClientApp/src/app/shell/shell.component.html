@@ -1,0 +1,44 @@
+<div class="shell">
+  <aside class="sidebar" [class.open]="menuOpen">
+    <a class="brand" routerLink="/">◈ <span>Insurance Portal</span></a>
+    <div class="nav-caption">{{ staff ? 'STAFF WORKSPACE' : 'CUSTOMER PORTAL' }}</div>
+    <nav aria-label="Portal navigation">
+      @for (link of links; track link.path) {
+        <a
+          [routerLink]="link.path"
+          routerLinkActive="active"
+          [routerLinkActiveOptions]="{ exact: link.exact }"
+          (click)="menuOpen = false"
+          ><span class="nav-icon">{{ link.icon }}</span
+          >{{ link.label }}
+          @if (link.soon) {
+            <small>Soon</small>
+          }
+        </a>
+      }
+    </nav>
+  </aside>
+  <div class="workspace">
+    <header class="topbar">
+      <button
+        class="menu-button"
+        (click)="menuOpen = !menuOpen"
+        [attr.aria-expanded]="menuOpen"
+        aria-label="Toggle navigation"
+      >
+        ☰</button
+      ><span>{{ staff ? 'Staff workspace' : 'Customer portal' }}</span>
+      <div class="account">
+        <div class="account-details">
+          <strong>{{ displayName }}</strong>
+          @if (displayName !== session.user()?.email) {
+            <span>{{ session.user()?.email }}</span>
+          }
+          <span>{{ session.user()?.roles?.join(', ') }}</span>
+        </div>
+        <button class="text-button" (click)="session.signOut()">Sign out</button>
+      </div>
+    </header>
+    <main class="workspace-content"><router-outlet /></main>
+  </div>
+</div>

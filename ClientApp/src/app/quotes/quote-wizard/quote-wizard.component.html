@@ -1,0 +1,139 @@
+<div class="page-heading">
+  <div>
+    <span class="eyebrow">MY QUOTES / CREATE</span>
+    <h1>Create a quote</h1>
+    <p class="muted">Tell us a little about what you'd like to insure.</p>
+  </div>
+</div>
+@if (features.error()) {
+  <div class="error" role="alert">{{ features.error() }}</div>
+} @else if (!features.quoteCreationEnabled()) {
+  <div class="notice">Quote creation is not currently available.</div>
+  <p><a routerLink="/portal">Back to dashboard</a></p>
+} @else if (created) {
+  <section class="card panel">
+    <span class="eyebrow">QUOTE CREATED</span>
+    <h2>{{ created.referenceNumber }}</h2>
+    <p role="status">{{ created.message || 'Your quote request was submitted successfully.' }}</p>
+    <dl>
+      <dt>Status</dt>
+      <dd>{{ created.quote.status }}</dd>
+      <dt>Estimated premium</dt>
+      <dd>{{ created.quote.totalPremium | number: '1.2-2' }}</dd>
+      <dt>Valid until</dt>
+      <dd>{{ created.quote.validUntil | date: 'mediumDate' }}</dd>
+    </dl>
+    <p class="muted">Creating this quote does not issue or activate a policy.</p>
+    <a class="button secondary" routerLink="/portal">Back to dashboard</a>
+  </section>
+} @else {
+  <div class="wizard-steps" aria-label="Quote progress">
+    @for (label of steps; track label; let i = $index) {
+      <span [class.current]="step === i">{{ i + 1 }}. {{ label }}</span>
+    }
+  </div>
+  @if (error) {
+    <div class="error" role="alert">{{ error }}</div>
+  }
+  @if (step === 0) {
+    <div class="cards three">
+      @for (name of products; track name) {
+        <button class="card product select-product" (click)="selectProduct(name)">
+          <span class="product-icon">{{
+            name === 'Auto' ? '◇' : name === 'Home' ? '⌂' : '+'
+          }}</span>
+          <h3>{{ name }} insurance</h3>
+          <span class="link">Select {{ name }} →</span>
+        </button>
+      }
+    </div>
+  }
+  @if (step === 1 || step === 2) {
+    <section class="card panel">
+      <h2>{{ step === 1 ? 'Address' : product + ' details' }}</h2>
+      <p class="muted">
+        {{ step === 1 ? 'Where is the insured location?' : 'Provide details for your quote.' }}
+      </p>
+      @if ((step === 1 || step === 2) && lookupError) {
+        <div class="error" role="alert">
+          Could not load options: {{ lookupError }}
+          <button type="button" class="button secondary" (click)="retryLookups()">Retry</button>
+        </div>
+      }
+      <form [formGroup]="currentForm" (ngSubmit)="next()">
+        <div class="form-grid">
+          @for (field of visibleFields; track field.key) {
+            <div class="field">
+              <label [for]="field.key"
+                >{{ field.label }}{{ field.optional ? ' (optional)' : '' }}</label
+              >
+              @if (field.type === 'boolean') {
+                <select [id]="field.key" [formControlName]="field.key" required>
+                  <option [ngValue]="null">Select an answer</option>
+                  <option [ngValue]="true">Yes</option>
+                  <option [ngValue]="false">No</option>
+                </select>
+              } @else if (field.type === 'select') {
+                <select
+                  [id]="field.key"
+                  [formControlName]="field.key"
+                  [attr.aria-busy]="isLoading(field)"
+                >
+                  <option [ngValue]="null">{{ emptyLabel(field) }}</option>
+                  @for (option of field.options ?? []; track option.value) {
+                    <option [ngValue]="option.value">{{ option.label }}</option>
+                  }
+                  @for (item of lookups[field.key]; track item.id) {
+                    <option [ngValue]="optionValue(field, item)">{{ item.name }}</option>
+                  }
+                </select>
+              } @else {
+                <input
+                  [id]="field.key"
+                  [type]="field.type"
+                  [formControlName]="field.key"
+                  [attr.min]="field.min ?? null"
+                  [attr.required]="field.optional ? null : ''"
+                />
+              }
+              @if (
+                currentForm.controls[field.key].invalid && currentForm.controls[field.key].touched
+              ) {
+                <small class="field-error">Enter a valid {{ field.label.toLowerCase() }}.</small>
+              }
+            </div>
+          }
+        </div>
+        <div class="actions">
+          <button type="button" class="button secondary" (click)="back()">Back</button
+          ><button class="button">Continue</button>
+        </div>
+      </form>
+    </section>
+  }
+  @if (step === 3) {
+    <section class="card panel">
+      <h2>Review your information</h2>
+      <p class="muted">Please confirm these details before requesting your quote.</p>
+      <h3>{{ product }} insurance</h3>
+      <dl class="review-list">
+        @for (field of addressFields; track field.key) {
+          <dt>{{ field.label }}</dt>
+          <dd>{{ optionLabel(field, address.value[field.key]) }}</dd>
+        }
+        @for (field of selectedFields; track field.key) {
+          @if (isVisible(field)) {
+            <dt>{{ field.label }}</dt>
+            <dd>{{ optionLabel(field, details.value[field.key]) }}</dd>
+          }
+        }
+      </dl>
+      <div class="actions">
+        <button class="button secondary" (click)="back()">Back</button
+        ><button class="button" (click)="submit()" [disabled]="busy">
+          {{ busy ? 'Submitting…' : 'Get my quote' }}
+        </button>
+      </div>
+    </section>
+  }
+}
